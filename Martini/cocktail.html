@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Martini</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/hover-linehead.css">
+    <link rel="stylesheet" href="css/cocktail-dropdown.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/jquery.bxslider2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" type="text/css" href="css/cocktail.css">
+  </head>
+  <body>
+
+        <div class="bg-header">
+          <div class="bxslider2">
+            <div class="bg-image-header" id="image-header1">
+              <div class="wrapper">
+                <div class="name-title-head1">ไม่พลาดกับทุกเรื่องราวของวงการค็อกเทลไปกับ<img class="logo-banner1" src="images/logo.png"></div>
+              </div>
+                <div><img class="image-header" src="images/header1.jpg"></div>
+
+            </div>
+            <div class="bg-image-header">
+              <div class="wrapper">
+                <div class="name-title-head2">ค้นพบสูตรลับค็อกเทล ที่นี้ที่เดียวกับมาร์ตินี้</div>
+              </div>
+                <div><img class="image-header" src="images/header2.jpg"></div>
+            </div>
+            <div class="bg-image-header">
+              <div class="wrapper">
+                <div class="name-title-head">โชว์ความเป็นไลฟ์สไตล์ ด้วยส่วนผสมความเป็นคุณ</div>
+              </div>
+                <div><img class="image-header" src="images/header3.jpg"></div>
+            </div>
+          </div><!-- bxslider2 -->
+              <div class="wrapper">
+                <a href="home.html"><div class="logo-header"></div></a>
+                  <div class="menu">
+                        <div class="header-menu"><a class="c-btn c-btn--double-line" href="home.html">Home</a></div>
+                        <div class="header-menu"><a class="c-btn c-btn--double-line active" href="cocktail.html">Cocktail</a></div>
+                        <div class="header-menu"><a class="c-btn c-btn--double-line" href="mixer.html">Mixer</a></div>
+                        <div class="header-menu"><a class="c-btn c-btn--double-line" href="#">Contact</a></div>
+                        <div id="icon-head">
+                          <div class="icon-user" id="icon-user1">
+                            <a href="#"><i class="fa fa-user " aria-hidden="true"></i></a>
+                          </div>
+                          <div class="wrapper">
+                              <div class="modal">
+                                <span class="close">&times;</span>
+                                <form action="#" class="form-wrapper">
+                                  <h1 class="title animated">Contact Us</h1>
+                                   <input type="text" class="input" id="name" placeholder="Username"/>
+                                   <input type="email" class="input" id="email" placeholder="Password" required/>
+                                  <input type="submit" class="submit" value="submit"/>
+                                </form>
+                              </div>
+                          </div>
+                      <div class="icon-search">
+                        <div class="container">
+                          <div class="search-box" id="search-box1">
+                            <input type="text" />
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div><!-- menu -->
+              </div><!-- wrapper -->
+        </div><!-- bg-header -->
+        <div class="background">
+          <div class="wrapper">
+            <div class="box-cocktail-all">
+            <div class='swanky'>
+              <!-- /////////// Begin Dropdown //////////// -->
+              <div class='swanky_wrapper'>
+                <input id='Dashboard' name='radio' type='radio'>
+                <label for='Dashboard'>
+                  <img src="images/page2/icon-glass/martini-glass.png">
+                  <span>&nbsp Cocktail Type</span>
+
+                  <div class='lil_arrow'></div>
+                  <div class='bar'></div>
+                  <div class='swanky_wrapper__content'>
+                    <ul>
+                      <li>Classic &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-glass/margarita-glass.png"> </li>
+                      <li>Tropical &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-glass/glass-2.png"></li>
+                      <li>Sparking &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-glass/tall-glass.png"></li>
+                      <li>Non Alcoholic &nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-glass/glass-3.png"></li>
+                      <li>Short &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-glass/shot-glass.png"></li>
+                      <li>Long Drink &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-glass/pint-glass.png"></li>
+                    </ul>
+                    <li> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    </li>
+                  </ul>
+                  </div>
+                </label>
+
+                <input id='Messages' name='radio' type='radio'>
+                <label for='Messages'>
+                  <img src="images/page2/icon-glass/all-apple.png">
+                  <span>&nbsp Fruit</span>
+                  <div class='lil_arrow'></div>
+                  <div class='bar'></div>
+                  <div class='swanky_wrapper__content'>
+                    <ul>
+                      <li>Avocado &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-fruit/avocado.png"></li>
+                      <li>Cherry &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-fruit/cherry.png"></li>
+                      <li>Strawberry &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-fruit/strawberry.png"></li>
+                      <li>Blueberry &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-fruit/blueberries.png"></li>
+                      <li>Pineapple &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-fruit/pineapple.png"></li>
+                      <li>Banana &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-fruit/banana.png"></li>
+                      <li>Kiwi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-fruit/kiwi.png"></li>
+                    </ul>
+                  </div>
+                </label>
+                <input id='Users' name='radio' type='radio'>
+                <label for='Users'>
+                  <img src="images/page2/icon-glass/paint.png">
+                  <span>&nbsp Drink Color</span>
+                  <div class='lil_arrow'></div>
+                  <div class='bar'></div>
+                  <div class='swanky_wrapper__content'>
+                    <ul>
+                      <li>Red  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-drink/cocktails-2.png"></li>
+                      <li>Orange &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-drink/cocktails.png"></li>
+                      <li>Yellow &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-drink/cocktails-3.png"></li>
+                      <li>Green &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-drink/cocktails-4.png"></li>
+                      <li>Blue &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-drink/cocktails-5.png"></li>
+                      <li>Purple &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-drink/cocktails-6.png"></li>
+                      <li>Pink &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <img src="images/page2/icon-drink/cocktails-2.png"></li>
+                    </ul>
+                  </div>
+                </label>
+
+                <input id='Sales' name='radio' type='radio'>
+                <label for='Sales'>
+                  <img src="images/page2/icon-glass/cheers.png">
+                  <span>&nbsp Taste</span>
+                  <div class='lil_arrow'></div>
+                  <div class='bar'></div>
+                  <div class='swanky_wrapper__content'>
+                    <ul>
+                      <li>Sweet</li>
+                      <li>Bitter</li>
+                      <li>Light</li>
+                      <li>Medium</li>
+                      <li>Stong</li>
+                      <li>Extremely</li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </label>
+
+
+              </div><!-- swanky -->
+          </div>
+      <div class="All-cocktail-box">
+          <div class="Name-type">Cocktail Type</div>
+
+        <div class="box-bg-cocktail">
+
+              <div class="name-cock">Classic Cocktail</div>
+
+              <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+              <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+              <div class="bxslider3">
+                  <div class="box-cocktail">
+
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">บรั่นดี <p>2 ส่วน</p><br>มิ้นท์ <p>1 ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_stinger.png">
+                        <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbspสตริงเกอร์</h1></a></nav>
+                      </div>
+
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">วอทก้า <p>3 ส่วน</p><br>สัปปะรด <p>2½ ส่วน</p><br>แบล็คเบอรี่ <p>½ ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_french_martini.png">
+                        <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbspฟรานมาร์ตินีี้</h1></a></nav>
+                      </div>
+
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">จิน <p>2 ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_white_lady.png">
+                        <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp ไวท์เลดี้</h1></a></nav>
+                      </div>
+                  </div> <!-- box cocktailt -->
+
+                  <div class="box-cocktail">
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">จิน <p>2¼ ส่วน</p><br>เหล้าแมรัซคีโน <p>¾ ส่วน</p><br>น้ำมะนาว <p>¾ ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_aviation.png">
+                        <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp อวิเอชั่น</h1></a></nav>
+                      </div>
+
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">จิน <p>2 ส่วน</p><br>บลูคูราเซา <p>1 ส่วน</p><br>บลูฮาวาย <p>1 ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_blue_arrow.png">
+                        <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp บลูแอลโรว์</h1></a></nav>
+                      </div>
+
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">จิน <p>3 ส่วน</p><br>เหล้าเวอร์มุต <p>¾ ส่วน</p><br>น้ำมะนาว <p>1¼ ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_dry_martini.png">
+                        <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail"> ดายมาร์ตินี้</h1></a></nav>
+                      </div>
+                  </div> <!-- box cocktailt -->
+
+                  <div class="box-cocktail">
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">มิโดริ <p>2¾ ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_grinch.png">
+                        <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp กรินส์</h1></a></nav>
+                      </div>
+
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">รัม <p>1 ส่วน</p><br>น้ำส้ม <p>½ ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_golden_dream.png">
+                        <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp โกลเด้นดรีม</h1></a></nav>
+                      </div>
+
+                      <div class="bg-product-cocktail">
+                        <div class="hover-cocktail">วอทก้า <p>1 ส่วน</p><br>กาแฟ <p>½ ส่วน</p></div>
+                        <img class="image-cocktail-pro" src="images/page2/classic/cocktail_espresso_martini.png">
+                        <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">เอสเพสมาร์ตินี้</h1></a></nav>
+                      </div>
+                  </div> <!-- box cocktailt -->
+
+            </div><!-- bxslider -->
+
+
+
+            <div class="name-cock">Tropical Cocktail</div>
+
+            <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+            <div class="bxslider3">
+                <div class="box-cocktail2">
+
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">รัม <p>1½ ส่วน</p><br>น้ำมะพร้าว <p>1½ ส่วน</p><br>น้ำสัปปะรด <p>4½ ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_pina_colada.png">
+                      <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">พิน่า โคลาดา</h1></a></nav>
+                    </div>
+
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">จิน <p>3 ส่วน</p><br>น้ำมะนาว <p>½ ส่วน</p><br>น้ำสัปปะรด <p>½ ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_bora_bora.png">
+                      <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp โบร่า โบร่า</h1></a></nav>
+                    </div>
+
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">วอทก้า <p>2 ส่วน</p><br>น้ำแอปเปิ้ล <p>4½ ส่วน</p><br>บลูฮาวาย <p>1 ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_swimming_pool.png">
+                      <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp สวิมมิ้งพูล</h1></a></nav>
+                    </div>
+                </div> <!-- box cocktailt -->
+
+                <div class="box-cocktail2">
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">รัม <p>1 ส่วน</p><br>น้ำมะพร้าว <p>½ ส่วน</p><br>น้ำสัปปะรด <p>2 ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_acapulco.png">
+                      <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp อคาพูโค</h1></a></nav>
+                    </div>
+
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">รัม <p>1½ ส่วน</p><br>น้ำส้ม <p>2 ส่วน</p><br>น้ำสัปปะรด <p>2 ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_caribbean_lovers.png">
+                      <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">แคริเบี้ยนเลิฟ</h1></a></nav>
+                    </div>
+
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">รัม <p>1 ส่วน</p><br>น้ำมะพร้าว <p>½ ส่วน</p><br>บลูฮาวาย <p>1 ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_blue_hawaiian.png">
+                      <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp บลูฮาไวน์</h1></a></nav>
+                    </div>
+                </div> <!-- box cocktailt -->
+
+                <div class="box-cocktail2">
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">รัม <p>2¼ ส่วน</p><br>มิ้นท์ <p>2¼ ส่วน</p><br>น้ำมะพร้าว <p>1 ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_tropical_dream.png">
+                      <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">ทรอปิคอลดรีม</h1></a></nav>
+                    </div>
+
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">รัม <p>1½ ส่วน</p><br>น้ำสตอเบอรี่ <p>1 ส่วน</p><br>น้ำสัปปะรด <p>3 ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_strawberry_colada.png">
+                      <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp โคลาด้า</h1></a></nav>
+                    </div>
+
+                    <div class="bg-product-cocktail">
+                      <div class="hover-cocktail">รัม <p>½ ส่วน</p><br>น้ำสัปปะรด <p>3 ส่วน</p><br>น้ำส้ม <p>3 ส่วน</p></div>
+                      <img class="image-cocktail-pro" src="images/page2/tropical/cocktail_bahama_mama.png">
+                      <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp บาฮาม่า</h1></a></nav>
+                    </div>
+                </div> <!-- box cocktailt -->
+
+          </div><!-- bxslider -->
+
+
+
+          <div class="name-cock">Sparking Cocktail</div>
+
+          <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+          <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+          <div class="bxslider3">
+              <div class="box-cocktail2">
+
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">วอทก้า <p>1 ส่วน</p><br>แชมเปญ <p>4 ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_midnight_millionaire.png">
+                    <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp มิลเลี่ยน</h1></a></nav>
+                  </div>
+
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">แชมเปญ <p>1 ส่วน</p><br>มิ้นท์ <p>5 ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_arise_my_love.png">
+                    <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">เอริส มายเลิฟ</h1></a></nav>
+                  </div>
+
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">แชมเปญ <p>4 ส่วน</p><br>สตอเบอรี่ <p>2¼ ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_rossini.png">
+                    <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp รอสสินี้</h1></a></nav>
+                  </div>
+              </div> <!-- box cocktailt -->
+
+              <div class="box-cocktail2">
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">แชมเปญ <p>4 ส่วน</p><br>น้ำส้ม <p>4 ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_mimosa.png">
+                    <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp มิโมซ่า</h1></a></nav>
+                  </div>
+
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">แชมเปญ <p>½ ส่วน</p><br>บลูเบอรี่ <p>1½ ส่วน</p><br>น้ำมะนาว <p>½ ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_blueberry_ginger_bellini.png">
+                    <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp กลินเกอร์</h1></a></nav>
+                  </div>
+
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">แชมเปญ <p>4 ส่วน</p><br>แคมพาริิ <p>1½ ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_goodnight_kiss.png">
+                    <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp กู๊ดไนท์คิส</h1></a></nav>
+                  </div>
+              </div> <!-- box cocktailt -->
+
+              <div class="box-cocktail2">
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">ไวน์ขาว <p>4½ ส่วน</p><br>บลูเบอร์รี่ <p>½ ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_kir.png">
+                    <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp&nbsp เคียล์</h1></a></nav>
+                  </div>
+
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">จิน <p>1 ส่วน</p><br>แชมเปญ <p>5 ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_french75.png">
+                    <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp ฟรานซี๊</h1></a></nav>
+                  </div>
+
+                  <div class="bg-product-cocktail">
+                    <div class="hover-cocktail">แชมเปญ <p>4½ ส่วน</p><br>น้ำทับทิม <p>1½ ส่วน</p><br>น้ำส้ม <p>1½ ส่วน</p></div>
+                    <img class="image-cocktail-pro" src="images/page2/sparking/cocktail_champagne_dream.png">
+                    <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">แชมเปญดรีม</h1></a></nav>
+                  </div>
+              </div> <!-- box cocktailt -->
+
+        </div><!-- bxslider -->
+
+
+
+        <div class="name-cock">Non Alcoholic</div>
+
+        <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+        <div class="bxslider3">
+            <div class="box-cocktail2">
+
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">กล้วย <p>2 ส่วน</p><br>บลูเบอร์รี่ <p>3½ ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_blueberry.png">
+                  <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp บลูเบอร์รี่</h1></a></nav>
+                </div>
+
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">น้ำส้ม <p>2 ส่วน</p><br>ไซรัป <p>1½ ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_snow_cap.png">
+                  <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp สโนว์แคป</h1></a></nav>
+                </div>
+
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">โซดา <p>5 ส่วน</p><br>น้ำพีช <p>2½ ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_bellini.png">
+                  <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp เบลลินี้</h1></a></nav>
+                </div>
+            </div> <!-- box cocktailt -->
+
+            <div class="box-cocktail2">
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">โซดา <p>6 ส่วน</p><br>น้ำมะนาว <p>2 ส่วน</p><br>ราสเบอรี่ <p>4 ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_rasperry_limeade.png">
+                  <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp ลิมิเดีย</h1></a></nav>
+                </div>
+
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">ราสเบอรี่ <p>¼ ส่วน</p><br>สตอเบอรี่ <p>½ ส่วน</p><br>เชอรี่ <p>¾ ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_purple_berry_basil.png">
+                  <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp บาซิลิส</h1></a></nav>
+                </div>
+
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">อัลมอนต์ <p>2½ ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p><br>น้ำองุ่น <p>1 ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_holiday_almond.png">
+                  <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp ฮอลิเดย์</h1></a></nav>
+                </div>
+            </div> <!-- box cocktailt -->
+
+            <div class="box-cocktail2">
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">โซดา <p>2 ส่วน</p><br>น้ำมะนาว <p>2¼ ส่วน</p><br>น้ำมะพร้าว <p>1 ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_skin_cleanse.png">
+                  <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp สกินคลีน</h1></a></nav>
+                </div>
+
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">โซดา <p>1½ ส่วน</p><br>แตงโม <p>6 ส่วน</p><br>สัปปะรด <p>½ ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_virgin_melon_berry_slush.png">
+                  <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp เวอล์จินเม</h1></a></nav>
+                </div>
+
+                <div class="bg-product-cocktail">
+                  <div class="hover-cocktail">โซดา <p>2 ส่วน</p><br>สตอเบอรี่ <p>2½ ส่วน</p><br>มิ้นท์ <p>1 ส่วน</p></div>
+                  <img class="image-cocktail-pro" src="images/page2/non-alcoholic/cocktail_cranberry_citrus_mint.png">
+                  <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp คิสตัลมินท์</h1></a></nav>
+                </div>
+            </div> <!-- box cocktailt -->
+
+      </div><!-- bxslider -->
+
+
+
+      <div class="name-cock">Short</div>
+
+      <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+      <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+      <div class="bxslider3">
+          <div class="box-cocktail2">
+
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">จิน <p>1½ ส่วน</p><br>สุราแช่ <p>1½ ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_negroni.png">
+                <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp นีโกรนิ</h1></a></nav>
+              </div>
+
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">วอทก้า <p>3 ส่วน</p><br>มิ้นท์ <p>1¼ ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_absinthe_frappe.png">
+                <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">แอปซินแฟรบ</h1></a></nav>
+              </div>
+
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">รัม <p>5 ส่วน</p><br>น้ำมะนาว <p>8¼ ส่วน</p><br>องุ่น <p>4½ ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_caipiruva.png">
+                <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp ไคล์พิลูวา</h1></a></nav>
+              </div>
+          </div> <!-- box cocktailt -->
+
+          <div class="box-cocktail2">
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">บรั่นดี <p>3 ส่วน</p><br>น้ำส้ม <p>1½ ส่วน</p><br>น้ำมะนาว <p>¼ ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_chicago.png">
+                <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp ชิคาโก</h1></a></nav>
+              </div>
+
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">วอทก้า <p>2 ส่วน</p><br>น้ำองุ่น <p>4½ ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_greyhound.png">
+                <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp เกรย์ฮาว</h1></a></nav>
+              </div>
+
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">วิสกี้ <p>1½ ส่วน</p><br>รัม <p>1 ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_irish_shillelagh.png">
+                <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp ไอริส</h1></a></nav>
+              </div>
+          </div> <!-- box cocktailt -->
+
+          <div class="box-cocktail2">
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">วอทก้า <p>2 ส่วน</p><br>กาแฟ <p>1½ ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_russian_santa.png">
+                <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">รัสเซียนซานต้า</h1></a></nav>
+              </div>
+
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">วอทก้า <p>2½ ส่วน</p><br>กาแฟ <p>1½ ส่วน</p><br>นม <p>2 ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_white_russian.png">
+                <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">ไวท์รัสเซียน</h1></a></nav>
+              </div>
+
+              <div class="bg-product-cocktail">
+                <div class="hover-cocktail">บรั่นดี <p>5 ส่วน</p><br>น้ำมะนาว <p>2½ ส่วน</p><br>เชอรี่ <p>5 ส่วน</p></div>
+                <img class="image-cocktail-pro" src="images/page2/short/cocktail_cherry_caipirinha.png">
+                <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">ไคล์พิลินฮาย</h1></a></nav>
+              </div>
+          </div> <!-- box cocktailt -->
+
+    </div><!-- bxslider -->
+
+
+
+    <div class="name-cock">Long Drink</div>
+
+    <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+    <div class="bxslider3">
+        <div class="box-cocktail2">
+
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">รัม <p>2¼ ส่วน</p><br>น้ำสัปปะรด <p>3¾ ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_barracuda.png">
+              <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp บาร์ราคูดา</h1></a></nav>
+            </div>
+
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">ไวน์ <p>1 ส่วน</p><br>น้ำมะนาว <p>1½ ส่วน</p><br>น้ำองุ่น <p>¾ ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_pink_fruit.png">
+              <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp พิงค์ฟรุ๊ค</h1></a></nav>
+            </div>
+
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">วอทก้า <p>1 ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p><br>แครนเบอรี่ <p>4 ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_cranberry_kick.png">
+              <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">แครนเบอรี่คิก</h1></a></nav>
+            </div>
+        </div> <!-- box cocktailt -->
+
+        <div class="box-cocktail2">
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">จิน <p>5 ส่วน</p><br>น้ำมะนาว <p>1 ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_roy_rogers.png">
+              <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">รอยส์โรเกอร์</h1></a></nav>
+            </div>
+
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">รัม <p>2¼ ส่วน</p><br>น้ำมะนาว <p>1½ ส่วน</p><br>น้ำขิง <p>1½ ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_basil_crush.png">
+              <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp บาซิลครัส</h1></a></nav>
+            </div>
+
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">วอทก้า <p>1½ ส่วน</p><br>น้ำมะนาว <p>1½ ส่วน</p><br>บลูฮาวาย <p>1½ ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_blue_kamikaze.png">
+              <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">&nbsp บลูคามิคาเซ่</h1></a></nav>
+            </div>
+        </div> <!-- box cocktailt -->
+
+        <div class="box-cocktail2">
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">วิสกี้ <p>1 ส่วน</p><br>น้ำส้ม <p>2 ส่วน</p><br>โซดา <p>2½ ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_affair.png">
+              <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp แอฟเฟียร์</h1></a></nav>
+            </div>
+
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">จิน <p>2¼ ส่วน</p><br>น้ำมะนาว <p>1½ ส่วน</p><br>โซดา <p>4 ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_gin_fizz.png">
+              <nav class="cl-effect-7" style="margin-left: 16px;"><a href="#"><h1 class="name-cocktail">&nbsp&nbsp&nbsp&nbsp จินฟี้</h1></a></nav>
+            </div>
+
+            <div class="bg-product-cocktail">
+              <div class="hover-cocktail">บรั่นดี <p>3 ส่วน</p><br>น้ำส้ม <p>2¼ ส่วน</p></div>
+              <img class="image-cocktail-pro" src="images/page2/longdrink/cocktail_tequila_sunset.png">
+              <nav class="cl-effect-7" style="margin-left: 10px;"><a href="#"><h1 class="name-cocktail">ทีคูร่าซันเซท</h1></a></nav>
+            </div>
+        </div> <!-- box cocktailt -->
+
+  </div><!-- bxslider -->
+
+
+
+
+        </div><!-- box-bg-cocktail -->
+</div>
+          </div><!-- wrapper -->
+
+          </div><!-- background -->
+
+          <div class="footer">
+            <div class="wrapper">
+              <a href="home.html"><div class="logo-footer"></div></a>
+                <div id="footer-cocktail">
+                  <div id="cocktail">Cocktail</div>
+                  <ul id="menu-cocktail">
+                    <a href="cocktail.html"><li>- All Cocktail</li></a>
+                    <a href="cocktail.html"><li>- Taste</li></a>
+                    <a href="cocktail.html"><li>- Fruit</li></a>
+                    <a href="cocktail.html"><li>- Drink Color</li></a>
+                  </ul>
+                </div>
+
+                <div id="footer-mixer">
+                  <div id="mixer">Mixer</div>
+                  <ul id="menu-mixer">
+                    <a href="mixer.html"><li>- Mix Cocktail</li></a>
+                  </ul>
+                </div>
+
+                    <div id="footer-contact">
+                      <div id="contact">Contact</div>
+                      <ul id="menu-contact">
+                        <li>- www.martini-cocktail.com</li>
+                        <li>- martini.gmail.com</li>
+                        <li>- 02-224-5631</li>
+                      </ul>
+                    </div>
+
+                  <div id="social">
+                    <div id="social-icon">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="copyright">
+                      <i class="fa fa-copyright" aria-hidden="true"></i>
+                         Copyright 2017 , Web Design l By 13590278 all right reserved.
+                  </div>
+
+            </div><!-- Wrapper -->
+          </div><!-- footer -->
+
+
+  </body>
+  <script src="js/show-cocktail.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.bxslider2').bxSlider({
+      auto: true
+    });
+    $('.bxslider').bxSlider({
+      pager: false
+    });
+    $('.bxslider3').bxSlider({
+      pager: false
+    });
+
+  });
+  </script>
+
+  <script  src="js/login.js"></script>
+  <script src="js/show-cocktail.js"></script>
+</html>
